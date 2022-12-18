@@ -51,3 +51,8 @@ print(lst) # ['care', 'cafe']
 # 2. m = p.match("비교할 문자열") 주어진 문자열 처음부터 일치하는지 확인
 # 3. m = p.search("비교할 문자열") 주어진 문자열 중 일치하는 것이 있는가
 # 4. lst = p.findall("비교할 문자열") 일치하는 모든 것을 리스트 형식으로 반환
+
+
+# 이런식으로 사용
+# items = soup.find_all("li", attrs={"class":re.compile("^search-product")})
+# li tag 중 search_product로 시작하는 class
